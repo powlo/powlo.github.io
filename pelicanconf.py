@@ -19,6 +19,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+SITELOGO = "/images/profile.png"
+
 # Blogroll
 LINKS = (
     ("Pelican", "https://getpelican.com/"),
@@ -29,6 +31,7 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
+    ("linkedin", "https://www.linkedin.com/in/paul-backhouse-3a18941/"),
     ("github", "https://github.com/powlo"),
     ("rss", "/blog/feeds/all.atom.xml"),
 )
