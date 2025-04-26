@@ -1,5 +1,7 @@
 AUTHOR = "Paul Backhouse"
-SITENAME = "You look deep in thought"
+SITENAME = "You Look Deep In Thought"
+SITETITLE = "you look deep in thought"
+SITESUBTITLE = "Paul Backhouse"
 SITEURL = ""
 
 PATH = "content"
@@ -7,6 +9,8 @@ PATH = "content"
 TIMEZONE = "Europe/London"
 
 DEFAULT_LANG = "en"
+
+THEME = "Flex"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -25,11 +29,12 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("github", "https://github.com/powlo"),
+    ("rss", "/blog/feeds/all.atom.xml"),
 )
 
 DEFAULT_PAGINATION = 10
+
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
