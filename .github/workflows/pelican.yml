@@ -7,7 +7,7 @@ on:
       deploy:
         required: false
         default: true
-        description: "Whether to deploy the site. If checked, then build the site and deploy it. If not checked, then just test that the site builds successfully but don't deploy anything."
+        description: "Check to deploy the site after a successful build."
         type: boolean
 jobs:
   deploy:
